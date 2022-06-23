@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* header .headerContact {
+  background-color: #3fbbc0;
+}
+
+* header .mainNavbar {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+* header .mainNavbar .logo img {
+  width: 150px;
+}
+
+* header .mainNavbar .navbar ul li {
+  margin-right: 12px;
+}
+
+* header .mainNavbar .navbar ul li a {
+  color: gray;
+}
+
+* header .mainNavbar .navbar ul li button {
+  width: 200px;
+  background-color: #3fbbc0;
+  color: white;
+}
+
+* main {
+  background-color: #f0f0f0;
+}
+
+* main #carouselExampleIndicators .carousel-inner .carousel-item .image {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* main #carouselExampleIndicators .carousel-inner .carousel-item .image img {
+  height: 900px;
+}
+
+* main #carouselExampleIndicators .carousel-inner .carousel-item .image .content {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 4px solid #3fbbc0;
+  bottom: 200px;
+  position: absolute;
+}
+
+* main #carouselExampleIndicators .carousel-inner .carousel-item .image .content button {
+  width: 120px;
+  background-color: #3fbbc0;
+  color: white;
+}
+
+* main .MyCards {
+  margin-top: 30px;
+}
+
+* main .MyCards ul {
+  list-style-type: none;
+}
+
+* main .MyCards ul li .myCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+* main .MyCards ul li .myCard .title {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+* main .MyCards ul li .myCard .subtitle {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+* main .MyCards ul li .myCard i {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 34px;
+  color: #3fbbc0;
+}
+
+* main .MyCards ul li .myCard:hover {
+  background-color: #3fbbc0;
+}
+
+* main .MyCards ul li .myCard:hover i {
+  color: #fff;
+}
+
+* main .MyCards ul li .myCard:hover .title {
+  color: white;
+}
+
+* main .MyCards ul li .myCard:hover .subtitle {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
